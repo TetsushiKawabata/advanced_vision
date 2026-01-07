@@ -22,6 +22,14 @@ $ cd advansed_vision
 ```
 
 ### 実行方法と実行結果
+実行後、以下の学習曲線がresult.pngとして保存されます。
+```
+$ python train.py
+train acc, test acc | 0.09736666666666667, 0.0982
+train acc, test acc | 0.10218333333333333, 0.101
+train acc, test acc | 0.11236666666666667, 0.1135
+(以下略)
+```
 
 
 ## 既存リポジトリからの変更点
