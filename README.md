@@ -43,8 +43,8 @@ train acc, test acc | 0.11236666666666667, 0.1135
 #### 入力
 784次元の画像データ(MNISTの手書き数字)
 
-#### 第一層
-第一層は、全結合層であり活性化関数にはシグモイド関数を使用しています。
+#### 第一層 (隠れ層)
+第一層は、全結合層であり活性化関数にはシグモイド関数を使用しています。この際、```math \mathbf{a}^{(i)} ```は$\mathbf{i}$層目の重みを指し、
 ```math
 \mathbf{a}^{(1)} = \mathbf{x}\mathbf{W}^{(1)} + \mathbf{b}^{(1)}
 ```
@@ -59,13 +59,22 @@ train acc, test acc | 0.11236666666666667, 0.1135
 
 ![シグモイド関数](./img/sigmoid.png)
 
-#### 第二層
+#### 第二層 (隠れ層)
 第二層も第一層と同様に、全結合層であり活性化関数にはシグモイド関数を使用しています。
 ```math
 \mathbf{a}^{(2)} = \mathbf{x}\mathbf{W}^{(2)} + \mathbf{b}^{(2)}
 ```
 ```math
 \mathbf{z}^{(2)} = \mathrm{sigmoid}\left(\mathbf{a}^{(2)}\right)
+```
+
+#### 第三層 (出力層)
+第三層は、全結合層であり活性化関数にはソフトマックス関数を使用している。
+```math
+\mathbf{a}^{(3)} = \mathbf{z}^{(2)}\mathbf{W}^{(3)} + \mathbf{b}^{(3)}
+```
+```math
+\mathbf{y} = \mathrm{softmax}\left(\mathbf{a}^{(3)}\right)
 ```
 
 ### 損失関数
