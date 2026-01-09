@@ -75,3 +75,4 @@ train acc, test acc | 0.11236666666666667, 0.1135
 - 本リポジトリは、MITライセンスの下、公開されています。
 - このパッケージのコードは、以下のリポジトリ (MIT License) を基に作成しています。
     - [deep-learning-from-scratch](https://github.com/oreilly-japan/deep-learning-from-scratch)
+© 2026 Tetsushi Kawabata
