@@ -57,6 +57,12 @@ train acc, test acc | 0.11236666666666667, 0.1135
 
 ![シグモイド関数](./img/sigmoid.png)
 
+#### 第二層
+第二層も第一層と同様に、全結合層であり活性化関数にはシグモイド関数を使用しています。
+```math
+\mathbf{a}^{(2)} = \mathbf{x}\mathbf{W}^{(2)} + \mathbf{b}^{(2)}
+\mathbf{z}^{(2)} = \mathrm{sigmoid}\left(\mathbf{a}^{(2)}\right)
+```
 
 ### 損失関数
 
