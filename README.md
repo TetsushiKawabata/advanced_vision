@@ -47,12 +47,15 @@ train acc, test acc | 0.11236666666666667, 0.1135
 第一層は、全結合層であり活性化関数にはシグモイド関数を使用しています。
 ```math
 \mathbf{a}^{(1)} = \mathbf{x}\mathbf{W}^{(1)} + \mathbf{b}^{(1)}
+\mathbf{z}^{(1)} = \mathrm{sigmoid}\left(\mathbf{a}^{(1)}\right)
 ```
 
 シグモイド関数の式と、グラフは以下のようになっています。
 ```math
-\mathbf{z}^{(1)} = \mathrm{sigmoid}\left(\mathbf{a}^{(1)}\right)
+\mathrm{sigmoid}(x) = \frac{1}{1 + e^{-x}}
 ```
+
+![シグモイド関数](./img/sigmoid.png)
 
 
 ### 損失関数
