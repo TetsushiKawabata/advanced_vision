@@ -77,7 +77,7 @@ train acc, test acc | 0.11236666666666667, 0.1135
 \mathbf{y} = \mathrm{softmax}\left(\mathbf{a}^{(3)}\right)
 ```
 
-ソフトマックスの式は以下のようになっています。
+ソフトマックスの式は $\mathrm{softmax}(x)$ 以下のようになっています。
 ```math
 \mathrm{softmax}(x_i) = \frac{e^{x_i}}{\sum_{j=1}^{n} e^{x_k}}
 ```
@@ -92,4 +92,4 @@ train acc, test acc | 0.11236666666666667, 0.1135
 - 本リポジトリは、MITライセンスの下、公開されています。
 - このパッケージのコードは、以下のリポジトリ (MIT License) を基に作成しています。
     - [deep-learning-from-scratch](https://github.com/oreilly-japan/deep-learning-from-scratch)
-© 2026 Tetsushi Kawabata
+- © 2026 Tetsushi Kawabata
