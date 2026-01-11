@@ -10,7 +10,7 @@
 - [deep-learning-from-scratch](https://github.com/oreilly-japan/deep-learning-from-scratch)
 
 ### 既存パッケージからの変更点
-- 既存のパッケージとと本パッケージの変更点は以下のようになっています。
+- 既存のパッケージと本パッケージの変更点は以下のようになっています。
     - 変更前 : 隠れ層が1個のニューラルネットワーク
     - 変更後 : 隠れ層が2個のニューラルネットワーク
 
