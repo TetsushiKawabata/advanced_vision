@@ -81,7 +81,7 @@ train acc, test acc | 0.11236666666666667, 0.1135
 
 ソフトマックス関数の式は、以下のようになっています。
 ```math
-\mathrm{softmax}(x_i) = \frac{e^{x_i}}{\sum_{j=1}^{n} e^{x_k}}
+\mathrm{softmax}(x_i) = \frac{e^{x_i}}{\sum_{j=1}^{n} e^{x_j}}
 ```
 
 #### 出力
