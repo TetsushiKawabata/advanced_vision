@@ -22,8 +22,8 @@
 
 ### 本リポジトリのインストール方法
 ```
-$ git clone https://github.com/TetsushiKawabata/advansed_vision.git
-$ cd advansed_vision
+$ git clone https://github.com/TetsushiKawabata/advanced_vision.git
+$ cd advanced_vision
 ```
 
 ### 実行方法と実行結果
@@ -95,6 +95,6 @@ train acc, test acc | 0.11236666666666667, 0.1135
 
 ## ライセンス
 - 本リポジトリは、MITライセンスの下、公開されています。
-- このパッケージのコードは、以下のリポジトリ (MIT License) を基に作成しています。
+- このパッケージのコードは、以下のリポジトリ (MITライセンス) を基に作成しています。
     - [deep-learning-from-scratch](https://github.com/oreilly-japan/deep-learning-from-scratch)
 - © 2026 Tetsushi Kawabata
